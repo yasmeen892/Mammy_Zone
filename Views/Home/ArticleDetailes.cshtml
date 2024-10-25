@@ -1,0 +1,59 @@
+﻿@model Article
+@{
+    ViewData["Title"] = "ArticleDetailes";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BabyCare - Daycare Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+
+
+</head>
+<!-- Article Section Start -->
+<div class="container article-section py-5">
+    <div class="row">
+        <div class="col-12">
+            <article>
+                <img src=@Model.Image  class="article-image img-fluid mb-4" alt="Article Image">
+
+                <h1 class="article-title">Understand Your Baby’s Cues</h1>
+                <p class="article-content">
+
+                    <h2>@Model.ArticleTitle</h2>
+
+                    @Model.ArticleContent
+
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
+<!-- Article Section End -->

@@ -1,0 +1,50 @@
+﻿@model WebApplication1.Models.WorkShop
+
+@{
+    ViewBag.Title = "WorkShop Details";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h2>@Model.WorkShopName</h2>
+        </div>
+        <div class="card-body">
+            <p class="lead">@Model.Summary</p>
+            <p><strong>Target Group:</strong> @Model.TargetGroup</p>
+            <p><strong>Duration:</strong> @Model.WorkShopHours hours</p>
+
+            <h4 class="mt-4">Introductory Video</h4>
+            @if (!string.IsNullOrEmpty(Model.IntroVideoPath))
+            {
+                <div class="embed-responsive embed-responsive-16by9 mb-3">
+                    <video controls>
+                        <source src="@Url.Content(Model.IntroVideoPath)" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            }
+
+            <h4 class="mt-4">Course Videos</h4>
+            @if (Model.Videos != null && Model.Videos.Any())
+            {
+                @foreach (var video in Model.Videos)
+                {
+                    <div class="mb-3">
+                        <h5>@video.Title</h5>
+                        <div class="embed-responsive embed-responsive-16by9 mb-3">
+                            <video controls>
+                                <source src="@Url.Content(video.VideoPath)" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No videos available for this workshop.</p>
+            }
+        </div>
+    </div>
+</div>

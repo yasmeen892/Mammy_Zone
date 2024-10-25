@@ -1,0 +1,59 @@
+﻿@model WebApplication1.Models.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!-- Page Content -->
+<div class="content">
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center" style="margin-top: 40px;">
+            <div class="col-md-8 d-flex align-items-center">
+
+                <!-- Image Section -->
+                <div class="col-md-6">
+                    <img src="~/img/consultation.jpeg" class="img-fluid" alt="Logo" />
+                </div>
+
+                <!-- Login Form Section -->
+                <div class="col-md-6">
+                    <div class="account-content" style="border: 2px solid #FFB6C1; border-radius: 10px; padding: 20px; background-color: #fff; margin-top: 20px;">
+                        <div class="login-header text-center mb-4">
+                            <h3 style="font-family: 'Arial', sans-serif; letter-spacing: 1px;">Login</h3>
+                        </div>
+
+                        <!-- Login Form -->
+                        <form method="post" class="pt-4" asp-action="login" asp-controller="Account">
+                            <div class="form-group">
+                                <label asp-for="Email" class="form-label" style="font-family: 'Verdana', sans-serif;">Email</label>
+                                <input asp-for="Email" type="text" class="form-control" placeholder="Enter your Email ">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Password" class="form-label" style="font-family: 'Verdana', sans-serif;">Password</label>
+                                <input type="password" asp-for="Password" class="form-control"
+                                       placeholder="Enter your password">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for=" RememberMe" class="form-label" style="font-family: 'Verdana', sans-serif;">RememberMe</label>
+                                <input type="checkbox">
+                            </div>
+
+
+
+                            <button class="btn btn-primary btn-block btn-lg mt-4" type="submit" style="font-family: 'Verdana', sans-serif;"><a asp-action="Index"></a>Login</button>
+
+                            <div class="text-center dont-have mt-3" style="font-family: 'Verdana', sans-serif;">
+                                Don’t have an account?
+                                <a asp-action="Register" asp-controller="Account">Register</a>
+                            </div>
+                        </form>
+                        <!-- /Login Form -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

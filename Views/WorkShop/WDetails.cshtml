@@ -1,0 +1,71 @@
+﻿@model WorkShop
+@{
+    ViewData["Title"] = "WDetails";
+}
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BabyCare - Daycare Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <!-- Event Details Section with Video and Info Side by Side -->
+    <div class="container-event-details my-5" style="padding: 20px;">
+        <div class="row">
+            <!-- Video Section (Side by Side with Spacing) -->
+            <div class="col-md-6">
+                <div class="video-container mb-4" style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+                    <h2 class="text-primary mb-3" style="font-weight: bold;">Introduction Video</h2>
+                    <iframe width="100%" height="250" src=@Model.IntroVideoPath title="about event" style="border-radius: 8px;" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Program Info Section -->
+            <div class="col-md-6">
+                <h1 class="program-title" style="font-weight: bold; color: #333;">@Model.WorkShopName</h1>
+                <p class="program-description" style="color: #555;">@Model.Summary</p>
+                <div class="program-info mt-3">
+                    <p><strong>Hours:</strong> <span class="event-date">@Model.WorkShopHours</span></p>
+                    <p><strong>Specialist:</strong> <span class="event-host">@Model.SpecialistId</span></p>
+                    <p><strong>price:</strong> <span class="event-reqs">@Model.WorkShopPrice</span></p>
+                    <p><strong>TargetGroup:</strong> <span class="event-desc">@Model.TargetGroup</span></p>
+                    <a a class="btn btn-primary mt-3">Buy Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="text-center mt-5">
+            <a asp-action="Index"
+               asp-controller="Home"
+               class="btn btn-primary">back to Workshop List</a>
+        </div>
+    </div>
+</body>
+</html>

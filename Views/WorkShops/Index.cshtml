@@ -1,0 +1,113 @@
+﻿@model IEnumerable<WebApplication1.Models.WorkShop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkShopName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkShopTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkShopPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WorkShopHours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Summary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TargetGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Specialist)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IntroVideoPath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDeleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkShopName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkShopTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkShopPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WorkShopHours)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Summary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TargetGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Specialist.SpecialistCertificate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IntroVideoPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDeleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.WorkShopId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.WorkShopId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.WorkShopId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
