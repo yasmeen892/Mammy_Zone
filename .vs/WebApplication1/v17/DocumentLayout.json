@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{CB89C682-C3E4-41AF-8F65-3E739FD53A55}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB89C682-C3E4-41AF-8F65-3E739FD53A55}|WebApplication1.csproj|c:\\users\\mjo-mf-003\\source\\repos\\webapplication1\\areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CB89C682-C3E4-41AF-8F65-3E739FD53A55}|WebApplication1.csproj|solutionrelative:areas\\dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB89C682-C3E4-41AF-8F65-3E739FD53A55}|WebApplication1.csproj|c:\\users\\mjo-mf-003\\source\\repos\\webapplication1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CB89C682-C3E4-41AF-8F65-3E739FD53A55}|WebApplication1.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -66,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,10 +109,6 @@
               "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Create.cshtml",
@@ -124,7 +116,7 @@
               "RelativeDocumentMoniker": "Areas\\Dashboard\\Views\\Events\\Create.cshtml",
               "ToolTip": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Views\\Events\\Create.cshtml",
               "RelativeToolTip": "Areas\\Dashboard\\Views\\Events\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-18T12:12:10.818Z",
               "EditorCaption": ""
@@ -143,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
@@ -155,19 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Areas\\Dashboard\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYCAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-16T18:36:49.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -179,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "WorkShopsController.cs",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Controllers\\WorkShopsController.cs",
               "RelativeDocumentMoniker": "Areas\\Dashboard\\Controllers\\WorkShopsController.cs",
@@ -191,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ContactForm.cs",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Models\\ContactForm.cs",
               "RelativeDocumentMoniker": "Models\\ContactForm.cs",
@@ -203,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ContactFormsController.cs",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Controllers\\ContactFormsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactFormsController.cs",
@@ -215,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -227,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Views\\WorkShops\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Dashboard\\Views\\WorkShops\\Create.cshtml",
@@ -239,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Views\\Specialists\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Dashboard\\Views\\Specialists\\Index.cshtml",
@@ -251,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Areas\\Dashboard\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "Areas\\Dashboard\\Controllers\\EventsController.cs",
@@ -263,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -275,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "WorkShopVideo.cshtml",
               "DocumentMoniker": "C:\\Users\\MJO-MF-003\\source\\repos\\WebApplication1\\Views\\WorkShop\\WorkShopVideo.cshtml",
               "RelativeDocumentMoniker": "Views\\WorkShop\\WorkShopVideo.cshtml",
